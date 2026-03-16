@@ -146,13 +146,15 @@ img { max-width: 100%; display: block; }
 /* ── Hero ── */
 .hero {
   text-align: center;
-  padding: 28px 20px 24px;
+  padding: 16px 20px 14px;
 }
 
 .hero h1 {
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #555;
+  letter-spacing: 0.3px;
+  margin-bottom: 14px;
   line-height: 1.3;
 }
 
