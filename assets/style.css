@@ -400,7 +400,7 @@ a { color: inherit; text-decoration: none; }
 .article-cta-block {
   background: var(--teal-50);
   border: 1px solid #c8e6dc;
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 14px 18px;
   margin: 24px 0 12px;
 }
@@ -423,8 +423,8 @@ a { color: inherit; text-decoration: none; }
 
 /* ── Compliance page ── */
 .compliance-header {
-  padding-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 16px;
+  margin-bottom: 16px;
 }
 
 .compliance-header h1 {
@@ -460,9 +460,9 @@ a { color: inherit; text-decoration: none; }
 /* Legal status card */
 .legal-card {
   border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 20px;
-  margin-bottom: 20px;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 16px;
 }
 
 .legal-card-label {
@@ -495,10 +495,10 @@ a { color: inherit; text-decoration: none; }
 .cta-block {
   background: #f8fafa;
   border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 20px;
+  border-radius: 4px;
+  padding: 16px;
   text-align: center;
-  margin: 20px 0;
+  margin: 16px 0;
 }
 
 .cta-block h3 {
