@@ -150,10 +150,8 @@ img { max-width: 100%; display: block; }
 }
 
 .hero h1 {
-  font-size: 15px;
-  font-weight: 400;
-  color: #555;
-  letter-spacing: 0.3px;
+  font-size: 28px;
+  font-weight: 700;
   margin-bottom: 14px;
   line-height: 1.3;
 }
