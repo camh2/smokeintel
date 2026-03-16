@@ -9,41 +9,38 @@
 </head>
 <body>
 
-<!-- Nav -->
 <nav class="nav">
   <div class="nav-inner">
     <a href="/" class="nav-logo">SMOKE <span>INTEL</span></a>
-    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Toggle menu">
+    <button class="nav-toggle" onclick="document.querySelector('.nav-right').classList.toggle('open')" aria-label="Toggle menu">
       <span></span><span></span><span></span>
     </button>
-    <ul class="nav-links">
-      <li><a href="/news/new-york-coming-for-7oh-kratom.html">Articles</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/#subscribe" class="nav-subscribe">Subscribe</a></li>
-    </ul>
+    <div class="nav-right">
+      <a href="/about.html" class="nav-link">About</a>
+      <a href="/#subscribe" class="nav-subscribe">Subscribe</a>
+    </div>
   </div>
 </nav>
 
 <main class="container">
 
-  <!-- Breadcrumb -->
   <div class="breadcrumb">
     <a href="/">&larr; Smoke Intel</a>
   </div>
 
-  <!-- Article header -->
   <div class="article-header">
     <h1>New York Is Coming for 7-OH — And Maybe Kratom Too</h1>
     <div class="article-meta">
-      <span class="tag tag-red">NY</span>
-      <span class="tag tag-amber">7-OH</span>
-      <span class="tag tag-amber">Kratom</span>
+      <span class="state-label red">NEW YORK</span>
+      <span class="dot">&middot;</span>
+      <span>7-OH, Kratom</span>
+      <span class="dot">&middot;</span>
       <span>Mar 15, 2026</span>
-      <span>&middot; 4 sources</span>
+      <span class="dot">&middot;</span>
+      <span>4 sources</span>
     </div>
   </div>
 
-  <!-- Article body -->
   <div class="article-body">
     <p>New York has multiple bills in committee right now targeting 7-OH and kratom from every angle — full Schedule I ban, 2% threshold cap, and a straight ban on any food or drink containing either substance.</p>
 
@@ -54,60 +51,51 @@
     <p>If you're moving kratom or 7-OH into NY, start planning now. Don't pull a Florida.</p>
   </div>
 
-  <!-- CTA -->
-  <a href="https://salesquant.co?from=smokeintel&utm_source=smokeintel&utm_medium=article&utm_campaign=ny-7oh-kratom" class="article-cta">&rarr; See how SalesQuant tracks compliance across all 50 states</a>
+  <div class="article-cta-block">
+    <a href="https://salesquant.co?from=smokeintel&utm_source=smokeintel&utm_medium=article&utm_campaign=ny-7oh-kratom">&rarr; See how SalesQuant tracks compliance across all 50 states</a>
+  </div>
 
-  <!-- Disclaimer -->
   <p class="disclaimer">Informational only — not legal advice. Verify with official state sources.</p>
 
-  <!-- Related articles -->
-  <section class="section" style="padding-top: 32px;">
+  <!-- Related -->
+  <div class="briefing-section" style="border-top: 1px solid var(--border); border-bottom: none;">
     <p class="section-label">Related</p>
-    <div class="card-list">
 
-      <div class="card">
-        <div class="card-meta">
-          <span class="tag tag-red">NJ</span>
-          <span class="tag tag-amber">7-OH</span>
-          <span class="card-date">Mar 12, 2026</span>
-        </div>
+    <div class="briefing-row">
+      <span class="briefing-state red">NJ</span>
+      <div class="briefing-content">
         <h3><a href="#">New Jersey Just Made 7-OH Schedule I — With Prison Time</a></h3>
-        <p>The bill passed with bipartisan support. Penalties include up to 5 years for distribution.</p>
+        <p>Bill S4772 criminalizes possession, manufacturing, and distribution. 3-5 years for an ounce or less.</p>
       </div>
-
-      <div class="card">
-        <div class="card-meta">
-          <span class="tag tag-blue">FED</span>
-          <span class="tag tag-amber">7-OH</span>
-          <span class="card-date">Mar 13, 2026</span>
-        </div>
-        <h3><a href="#">The FDA Isn't Playing Around With 7-OH Anymore</a></h3>
-        <p>New federal guidance signals intent to classify 7-hydroxymitragynine as a controlled substance.</p>
-      </div>
-
     </div>
-  </section>
+
+    <div class="briefing-row">
+      <span class="briefing-state blue">FED</span>
+      <div class="briefing-content">
+        <h3><a href="#">The FDA Isn't Playing Around With 7-OH Anymore</a></h3>
+        <p>Seven warning letters sent to companies marketing 7-OH products. The feds are targeting manufacturers directly.</p>
+      </div>
+    </div>
+  </div>
 
   <!-- Newsletter -->
-  <section class="newsletter-section">
-    <h3>Get the weekly briefing. Free.</h3>
+  <div class="newsletter" id="subscribe">
+    <h3>Get the Weekly Briefing</h3>
+    <p class="newsletter-sub">Every regulatory change. Every enforcement action. Free.</p>
     <form class="newsletter-form" onsubmit="return false;">
       <input type="email" placeholder="you@company.com" required>
       <button type="submit">Subscribe</button>
     </form>
-  </section>
+  </div>
 
 </main>
 
-<!-- Footer -->
 <footer class="footer">
-  <div class="container">
-    Powered by <a href="https://salesquant.co?from=smokeintel">SalesQuant</a>
-    <span class="sep">&middot;</span>
-    <a href="/about.html">About</a>
-    <span class="sep">&middot;</span>
-    <a href="/#subscribe">Newsletter</a>
-  </div>
+  Powered by <a href="https://salesquant.co?from=smokeintel">SalesQuant</a>
+  <span class="sep">&middot;</span>
+  <a href="/about.html">About</a>
+  <span class="sep">&middot;</span>
+  <a href="/#subscribe">Newsletter</a>
 </footer>
 
 </body>
